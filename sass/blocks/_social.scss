@@ -1,0 +1,15 @@
+.social {
+  &__items {
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+    gap: 15px;
+  }
+  &__icon {
+    width: 30px;
+    transition: scale .1s ease;
+    &:hover{
+      scale: 1.5;
+    } 
+  }
+}

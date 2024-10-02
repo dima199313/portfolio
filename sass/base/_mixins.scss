@@ -1,0 +1,30 @@
+@mixin circle-setting {
+  position: relative;
+  z-index: 1;
+}
+@mixin circle {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -13px;
+  left: -12px;
+  width: 60px;
+  height: 60px;
+  border-radius:50%;
+  background-color:$accent-color;
+}
+@mixin circle-setting__title {
+  position: relative;
+  z-index: 1;
+}
+@mixin circle__title {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -5px;
+  left: -12px;
+  width: 35px;
+  height: 35px;
+  border-radius:50%;
+  background-color:$accent-color;
+}

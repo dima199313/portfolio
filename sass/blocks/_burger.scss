@@ -1,0 +1,35 @@
+.burger__menu-btn{
+  display: none;
+  position: fixed;
+  z-index: 5;
+  top: 25px;
+  right: 25px;
+  border: none;
+  background-color: transparent;
+  &--active {
+    display: block;
+  }
+}
+.burger-logo{
+  width: 40px;
+  transition: scale .2s ease;
+  &:hover {
+    scale: 1.4;
+  }
+}
+
+@media (max-width:1440px) {
+  .burger__menu-btn{
+    display: none;
+    position: fixed;
+    z-index: 5;
+    top: 3px;
+    right: 3px;
+    border: none;
+
+    background-color: #009f9f17;
+    &--active {
+      display: block;
+    }
+  }
+}
