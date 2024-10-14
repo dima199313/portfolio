@@ -34,6 +34,10 @@
     grid-column: 3 / 5;
     grid-row: 1 / 2;
   }
+  .project8 {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+  }
 }
 
 @media (max-width: 1360px) {
@@ -42,7 +46,8 @@
       padding-top: 50px;
     }
     .project4,
-    .project6 {
+    .project6,
+    .project8 {
       grid-column: unset;
       grid-row: unset;
     }
